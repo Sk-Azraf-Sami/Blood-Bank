@@ -6,6 +6,40 @@
 
 Welcome to the Blood Donor Finder iOS app! This application helps users find nearby blood donors quickly and easily.
 
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/1.jpeg" alt="Image 1" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/2.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/3.jpeg" alt="Image 3" width="30%">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/4.jpeg" alt="Image 1" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/5.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/6.jpeg" alt="Image 3" width="30%">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/7.jpeg" alt="Image 1" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/8.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/8-1.jpeg" alt="Image 3" width="30%">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/9.jpeg" alt="Image 1" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/10.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/11.jpeg" alt="Image 3" width="30%">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/12.jpeg" alt="Image 1" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/13.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/15.jpeg" alt="Image 3" width="30%">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/16.jpeg" alt="Image 1" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/17.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/18.jpeg" alt="Image 3" width="30%">
+</div>
+<div style="display: flex;">
+    <img src="https://github.com/Sk-Azraf-Sami/Blood-Bank/blob/main/Images/19.jpeg" alt="Image 2" width="30%" style="margin-right: 20px;">
+</div>
+
 ## Features
 
 - **Easy login and registration:** Users can easily sign up or log in to the app.
