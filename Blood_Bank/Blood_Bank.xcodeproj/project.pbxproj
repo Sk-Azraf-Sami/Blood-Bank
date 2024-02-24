@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		997270F42B14A905006E262C /* TeleTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997270F32B14A905006E262C /* TeleTestViewController.swift */; };
+		997270F62B14C424006E262C /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997270F52B14C424006E262C /* FeatureViewController.swift */; };
+		997270F82B14C550006E262C /* AllFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997270F72B14C550006E262C /* AllFeatureViewController.swift */; };
+		997A02792B1459A900B07E4B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A02782B1459A900B07E4B /* SearchViewController.swift */; };
+		997A027B2B1461C000B07E4B /* DataPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997A027A2B1461C000B07E4B /* DataPassViewController.swift */; };
+		99808D532B14F733002DA8BC /* APIcaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99808D522B14F733002DA8BC /* APIcaller.swift */; };
+		99808D552B150741002DA8BC /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99808D542B150741002DA8BC /* NewsTableViewCell.swift */; };
+		99808D572B1539DE002DA8BC /* updateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99808D562B1539DE002DA8BC /* updateViewController.swift */; };
+		99808D592B153A1D002DA8BC /* dhurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99808D582B153A1D002DA8BC /* dhurViewController.swift */; };
+		99C8C1132B13C51A00CD1700 /* rahaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8C1122B13C51A00CD1700 /* rahaViewController.swift */; };
+		99C8C1152B13C55000CD1700 /* SearchBtnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8C1142B13C55000CD1700 /* SearchBtnViewController.swift */; };
+		99C8C1172B13C71400CD1700 /* BloodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8C1162B13C71400CD1700 /* BloodData.swift */; };
+		99C8C1192B13CD3100CD1700 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C8C1182B13CD3100CD1700 /* LastViewController.swift */; };
+		99CD1D592B1378160041AC89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1D582B1378160041AC89 /* AppDelegate.swift */; };
+		99CD1D5B2B1378160041AC89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1D5A2B1378160041AC89 /* SceneDelegate.swift */; };
+		99CD1D5D2B1378160041AC89 /* TeleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1D5C2B1378160041AC89 /* TeleViewController.swift */; };
+		99CD1D602B1378160041AC89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CD1D5E2B1378160041AC89 /* Main.storyboard */; };
+		99CD1D622B1378170041AC89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99CD1D612B1378170041AC89 /* Assets.xcassets */; };
+		99CD1D652B1378170041AC89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99CD1D632B1378170041AC89 /* LaunchScreen.storyboard */; };
+		99CD1D702B1378170041AC89 /* Blood_BankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1D6F2B1378170041AC89 /* Blood_BankTests.swift */; };
+		99CD1D7A2B1378170041AC89 /* Blood_BankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1D792B1378170041AC89 /* Blood_BankUITests.swift */; };
+		99CD1D7C2B1378170041AC89 /* Blood_BankUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1D7B2B1378170041AC89 /* Blood_BankUITestsLaunchTests.swift */; };
+		99CD1D892B1378DB0041AC89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99CD1D882B1378DB0041AC89 /* GoogleService-Info.plist */; };
+		99CD1D8C2B1379A70041AC89 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D8B2B1379A70041AC89 /* FirebaseAnalytics */; };
+		99CD1D8E2B1379A70041AC89 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D8D2B1379A70041AC89 /* FirebaseAnalyticsOnDeviceConversion */; };
+		99CD1D902B1379A70041AC89 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D8F2B1379A70041AC89 /* FirebaseAnalyticsSwift */; };
+		99CD1D922B1379A70041AC89 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D912B1379A70041AC89 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		99CD1D962B1379A70041AC89 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D952B1379A70041AC89 /* FirebaseAppDistribution-Beta */; };
+		99CD1D982B1379A70041AC89 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D972B1379A70041AC89 /* FirebaseAuth */; };
+		99CD1D9A2B1379A70041AC89 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D992B1379A70041AC89 /* FirebaseAuthCombine-Community */; };
+		99CD1D9C2B1379A70041AC89 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D9B2B1379A70041AC89 /* FirebaseCrashlytics */; };
+		99CD1D9E2B1379A70041AC89 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D9D2B1379A70041AC89 /* FirebaseDatabase */; };
+		99CD1DA02B1379A70041AC89 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1D9F2B1379A70041AC89 /* FirebaseDatabaseSwift */; };
+		99CD1DA22B1379A70041AC89 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DA12B1379A70041AC89 /* FirebaseDynamicLinks */; };
+		99CD1DA42B1379A70041AC89 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DA32B1379A70041AC89 /* FirebaseFirestore */; };
+		99CD1DA62B1379A70041AC89 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DA52B1379A70041AC89 /* FirebaseFirestoreCombine-Community */; };
+		99CD1DA82B1379A70041AC89 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DA72B1379A70041AC89 /* FirebaseFirestoreSwift */; };
+		99CD1DAA2B1379A70041AC89 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DA92B1379A70041AC89 /* FirebaseFunctions */; };
+		99CD1DAC2B1379A70041AC89 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DAB2B1379A70041AC89 /* FirebaseFunctionsCombine-Community */; };
+		99CD1DAE2B1379A70041AC89 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DAD2B1379A70041AC89 /* FirebaseInstallations */; };
+		99CD1DB02B1379A70041AC89 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DAF2B1379A70041AC89 /* FirebaseMLModelDownloader */; };
+		99CD1DB22B1379A70041AC89 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DB12B1379A70041AC89 /* FirebaseMessaging */; };
+		99CD1DB42B1379A70041AC89 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DB32B1379A70041AC89 /* FirebasePerformance */; };
+		99CD1DB62B1379A70041AC89 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DB52B1379A70041AC89 /* FirebaseRemoteConfig */; };
+		99CD1DB82B1379A70041AC89 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DB72B1379A70041AC89 /* FirebaseRemoteConfigSwift */; };
+		99CD1DBA2B1379A70041AC89 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DB92B1379A70041AC89 /* FirebaseStorage */; };
+		99CD1DBC2B1379A70041AC89 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 99CD1DBB2B1379A70041AC89 /* FirebaseStorageCombine-Community */; };
+		99CD1DBE2B1381070041AC89 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1DBD2B1381070041AC89 /* loginViewController.swift */; };
+		99CD1DC02B1381160041AC89 /* signupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1DBF2B1381160041AC89 /* signupViewController.swift */; };
+		99CD1DC22B1392290041AC89 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CD1DC12B1392290041AC89 /* AddViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		99CD1D6C2B1378170041AC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99CD1D4D2B1378160041AC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CD1D542B1378160041AC89;
+			remoteInfo = Blood_Bank;
+		};
+		99CD1D762B1378170041AC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99CD1D4D2B1378160041AC89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99CD1D542B1378160041AC89;
+			remoteInfo = Blood_Bank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		997270F32B14A905006E262C /* TeleTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleTestViewController.swift; sourceTree = "<group>"; };
+		997270F52B14C424006E262C /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
+		997270F72B14C550006E262C /* AllFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllFeatureViewController.swift; sourceTree = "<group>"; };
+		997A02782B1459A900B07E4B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		997A027A2B1461C000B07E4B /* DataPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPassViewController.swift; sourceTree = "<group>"; };
+		99808D522B14F733002DA8BC /* APIcaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIcaller.swift; sourceTree = "<group>"; };
+		99808D542B150741002DA8BC /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		99808D562B1539DE002DA8BC /* updateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateViewController.swift; sourceTree = "<group>"; };
+		99808D582B153A1D002DA8BC /* dhurViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dhurViewController.swift; sourceTree = "<group>"; };
+		99C8C1122B13C51A00CD1700 /* rahaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rahaViewController.swift; sourceTree = "<group>"; };
+		99C8C1142B13C55000CD1700 /* SearchBtnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBtnViewController.swift; sourceTree = "<group>"; };
+		99C8C1162B13C71400CD1700 /* BloodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodData.swift; sourceTree = "<group>"; };
+		99C8C1182B13CD3100CD1700 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
+		99CD1D552B1378160041AC89 /* Blood_Bank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blood_Bank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CD1D582B1378160041AC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99CD1D5A2B1378160041AC89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		99CD1D5C2B1378160041AC89 /* TeleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleViewController.swift; sourceTree = "<group>"; };
+		99CD1D5F2B1378160041AC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99CD1D612B1378170041AC89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99CD1D642B1378170041AC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99CD1D662B1378170041AC89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99CD1D6B2B1378170041AC89 /* Blood_BankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blood_BankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CD1D6F2B1378170041AC89 /* Blood_BankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_BankTests.swift; sourceTree = "<group>"; };
+		99CD1D752B1378170041AC89 /* Blood_BankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Blood_BankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99CD1D792B1378170041AC89 /* Blood_BankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_BankUITests.swift; sourceTree = "<group>"; };
+		99CD1D7B2B1378170041AC89 /* Blood_BankUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blood_BankUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		99CD1D882B1378DB0041AC89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		99CD1DBD2B1381070041AC89 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		99CD1DBF2B1381160041AC89 /* signupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signupViewController.swift; sourceTree = "<group>"; };
+		99CD1DC12B1392290041AC89 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99CD1D522B1378160041AC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CD1D9E2B1379A70041AC89 /* FirebaseDatabase in Frameworks */,
+				99CD1DAC2B1379A70041AC89 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				99CD1DA42B1379A70041AC89 /* FirebaseFirestore in Frameworks */,
+				99CD1DAE2B1379A70041AC89 /* FirebaseInstallations in Frameworks */,
+				99CD1D902B1379A70041AC89 /* FirebaseAnalyticsSwift in Frameworks */,
+				99CD1DBA2B1379A70041AC89 /* FirebaseStorage in Frameworks */,
+				99CD1D8C2B1379A70041AC89 /* FirebaseAnalytics in Frameworks */,
+				99CD1D8E2B1379A70041AC89 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				99CD1DA82B1379A70041AC89 /* FirebaseFirestoreSwift in Frameworks */,
+				99CD1D922B1379A70041AC89 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				99CD1D982B1379A70041AC89 /* FirebaseAuth in Frameworks */,
+				99CD1DB62B1379A70041AC89 /* FirebaseRemoteConfig in Frameworks */,
+				99CD1D9C2B1379A70041AC89 /* FirebaseCrashlytics in Frameworks */,
+				99CD1DB22B1379A70041AC89 /* FirebaseMessaging in Frameworks */,
+				99CD1DB02B1379A70041AC89 /* FirebaseMLModelDownloader in Frameworks */,
+				99CD1DB42B1379A70041AC89 /* FirebasePerformance in Frameworks */,
+				99CD1DA02B1379A70041AC89 /* FirebaseDatabaseSwift in Frameworks */,
+				99CD1DAA2B1379A70041AC89 /* FirebaseFunctions in Frameworks */,
+				99CD1DB82B1379A70041AC89 /* FirebaseRemoteConfigSwift in Frameworks */,
+				99CD1D962B1379A70041AC89 /* FirebaseAppDistribution-Beta in Frameworks */,
+				99CD1D9A2B1379A70041AC89 /* FirebaseAuthCombine-Community in Frameworks */,
+				99CD1DBC2B1379A70041AC89 /* FirebaseStorageCombine-Community in Frameworks */,
+				99CD1DA22B1379A70041AC89 /* FirebaseDynamicLinks in Frameworks */,
+				99CD1DA62B1379A70041AC89 /* FirebaseFirestoreCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD1D682B1378170041AC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD1D722B1378170041AC89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99CD1D4C2B1378160041AC89 = {
+			isa = PBXGroup;
+			children = (
+				99CD1D572B1378160041AC89 /* Blood_Bank */,
+				99CD1D6E2B1378170041AC89 /* Blood_BankTests */,
+				99CD1D782B1378170041AC89 /* Blood_BankUITests */,
+				99CD1D562B1378160041AC89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99CD1D562B1378160041AC89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99CD1D552B1378160041AC89 /* Blood_Bank.app */,
+				99CD1D6B2B1378170041AC89 /* Blood_BankTests.xctest */,
+				99CD1D752B1378170041AC89 /* Blood_BankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99CD1D572B1378160041AC89 /* Blood_Bank */ = {
+			isa = PBXGroup;
+			children = (
+				99CD1D582B1378160041AC89 /* AppDelegate.swift */,
+				99CD1D5A2B1378160041AC89 /* SceneDelegate.swift */,
+				99CD1D5C2B1378160041AC89 /* TeleViewController.swift */,
+				99CD1D5E2B1378160041AC89 /* Main.storyboard */,
+				99808D582B153A1D002DA8BC /* dhurViewController.swift */,
+				99808D522B14F733002DA8BC /* APIcaller.swift */,
+				997270F52B14C424006E262C /* FeatureViewController.swift */,
+				99808D562B1539DE002DA8BC /* updateViewController.swift */,
+				997A027A2B1461C000B07E4B /* DataPassViewController.swift */,
+				997A02782B1459A900B07E4B /* SearchViewController.swift */,
+				99C8C1162B13C71400CD1700 /* BloodData.swift */,
+				99C8C1182B13CD3100CD1700 /* LastViewController.swift */,
+				99C8C1142B13C55000CD1700 /* SearchBtnViewController.swift */,
+				99C8C1122B13C51A00CD1700 /* rahaViewController.swift */,
+				99CD1DC12B1392290041AC89 /* AddViewController.swift */,
+				99CD1DBD2B1381070041AC89 /* loginViewController.swift */,
+				99CD1DBF2B1381160041AC89 /* signupViewController.swift */,
+				99CD1D882B1378DB0041AC89 /* GoogleService-Info.plist */,
+				99CD1D612B1378170041AC89 /* Assets.xcassets */,
+				99CD1D632B1378170041AC89 /* LaunchScreen.storyboard */,
+				99CD1D662B1378170041AC89 /* Info.plist */,
+				997270F32B14A905006E262C /* TeleTestViewController.swift */,
+				997270F72B14C550006E262C /* AllFeatureViewController.swift */,
+				99808D542B150741002DA8BC /* NewsTableViewCell.swift */,
+			);
+			path = Blood_Bank;
+			sourceTree = "<group>";
+		};
+		99CD1D6E2B1378170041AC89 /* Blood_BankTests */ = {
+			isa = PBXGroup;
+			children = (
+				99CD1D6F2B1378170041AC89 /* Blood_BankTests.swift */,
+			);
+			path = Blood_BankTests;
+			sourceTree = "<group>";
+		};
+		99CD1D782B1378170041AC89 /* Blood_BankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				99CD1D792B1378170041AC89 /* Blood_BankUITests.swift */,
+				99CD1D7B2B1378170041AC89 /* Blood_BankUITestsLaunchTests.swift */,
+			);
+			path = Blood_BankUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99CD1D542B1378160041AC89 /* Blood_Bank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CD1D7F2B1378170041AC89 /* Build configuration list for PBXNativeTarget "Blood_Bank" */;
+			buildPhases = (
+				99CD1D512B1378160041AC89 /* Sources */,
+				99CD1D522B1378160041AC89 /* Frameworks */,
+				99CD1D532B1378160041AC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blood_Bank;
+			packageProductDependencies = (
+				99CD1D8B2B1379A70041AC89 /* FirebaseAnalytics */,
+				99CD1D8D2B1379A70041AC89 /* FirebaseAnalyticsOnDeviceConversion */,
+				99CD1D8F2B1379A70041AC89 /* FirebaseAnalyticsSwift */,
+				99CD1D912B1379A70041AC89 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				99CD1D952B1379A70041AC89 /* FirebaseAppDistribution-Beta */,
+				99CD1D972B1379A70041AC89 /* FirebaseAuth */,
+				99CD1D992B1379A70041AC89 /* FirebaseAuthCombine-Community */,
+				99CD1D9B2B1379A70041AC89 /* FirebaseCrashlytics */,
+				99CD1D9D2B1379A70041AC89 /* FirebaseDatabase */,
+				99CD1D9F2B1379A70041AC89 /* FirebaseDatabaseSwift */,
+				99CD1DA12B1379A70041AC89 /* FirebaseDynamicLinks */,
+				99CD1DA32B1379A70041AC89 /* FirebaseFirestore */,
+				99CD1DA52B1379A70041AC89 /* FirebaseFirestoreCombine-Community */,
+				99CD1DA72B1379A70041AC89 /* FirebaseFirestoreSwift */,
+				99CD1DA92B1379A70041AC89 /* FirebaseFunctions */,
+				99CD1DAB2B1379A70041AC89 /* FirebaseFunctionsCombine-Community */,
+				99CD1DAD2B1379A70041AC89 /* FirebaseInstallations */,
+				99CD1DAF2B1379A70041AC89 /* FirebaseMLModelDownloader */,
+				99CD1DB12B1379A70041AC89 /* FirebaseMessaging */,
+				99CD1DB32B1379A70041AC89 /* FirebasePerformance */,
+				99CD1DB52B1379A70041AC89 /* FirebaseRemoteConfig */,
+				99CD1DB72B1379A70041AC89 /* FirebaseRemoteConfigSwift */,
+				99CD1DB92B1379A70041AC89 /* FirebaseStorage */,
+				99CD1DBB2B1379A70041AC89 /* FirebaseStorageCombine-Community */,
+			);
+			productName = Blood_Bank;
+			productReference = 99CD1D552B1378160041AC89 /* Blood_Bank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		99CD1D6A2B1378170041AC89 /* Blood_BankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CD1D822B1378170041AC89 /* Build configuration list for PBXNativeTarget "Blood_BankTests" */;
+			buildPhases = (
+				99CD1D672B1378170041AC89 /* Sources */,
+				99CD1D682B1378170041AC89 /* Frameworks */,
+				99CD1D692B1378170041AC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99CD1D6D2B1378170041AC89 /* PBXTargetDependency */,
+			);
+			name = Blood_BankTests;
+			productName = Blood_BankTests;
+			productReference = 99CD1D6B2B1378170041AC89 /* Blood_BankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		99CD1D742B1378170041AC89 /* Blood_BankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99CD1D852B1378170041AC89 /* Build configuration list for PBXNativeTarget "Blood_BankUITests" */;
+			buildPhases = (
+				99CD1D712B1378170041AC89 /* Sources */,
+				99CD1D722B1378170041AC89 /* Frameworks */,
+				99CD1D732B1378170041AC89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				99CD1D772B1378170041AC89 /* PBXTargetDependency */,
+			);
+			name = Blood_BankUITests;
+			productName = Blood_BankUITests;
+			productReference = 99CD1D752B1378170041AC89 /* Blood_BankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99CD1D4D2B1378160041AC89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					99CD1D542B1378160041AC89 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					99CD1D6A2B1378170041AC89 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 99CD1D542B1378160041AC89;
+					};
+					99CD1D742B1378170041AC89 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 99CD1D542B1378160041AC89;
+					};
+				};
+			};
+			buildConfigurationList = 99CD1D502B1378160041AC89 /* Build configuration list for PBXProject "Blood_Bank" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 99CD1D4C2B1378160041AC89;
+			packageReferences = (
+				99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 99CD1D562B1378160041AC89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99CD1D542B1378160041AC89 /* Blood_Bank */,
+				99CD1D6A2B1378170041AC89 /* Blood_BankTests */,
+				99CD1D742B1378170041AC89 /* Blood_BankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99CD1D532B1378160041AC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CD1D652B1378170041AC89 /* LaunchScreen.storyboard in Resources */,
+				99CD1D892B1378DB0041AC89 /* GoogleService-Info.plist in Resources */,
+				99CD1D622B1378170041AC89 /* Assets.xcassets in Resources */,
+				99CD1D602B1378160041AC89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD1D692B1378170041AC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD1D732B1378170041AC89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99CD1D512B1378160041AC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997270F42B14A905006E262C /* TeleTestViewController.swift in Sources */,
+				99CD1DBE2B1381070041AC89 /* loginViewController.swift in Sources */,
+				997270F62B14C424006E262C /* FeatureViewController.swift in Sources */,
+				997A02792B1459A900B07E4B /* SearchViewController.swift in Sources */,
+				99C8C1152B13C55000CD1700 /* SearchBtnViewController.swift in Sources */,
+				997A027B2B1461C000B07E4B /* DataPassViewController.swift in Sources */,
+				99CD1D5D2B1378160041AC89 /* TeleViewController.swift in Sources */,
+				99808D532B14F733002DA8BC /* APIcaller.swift in Sources */,
+				99CD1DC22B1392290041AC89 /* AddViewController.swift in Sources */,
+				99C8C1172B13C71400CD1700 /* BloodData.swift in Sources */,
+				99CD1DC02B1381160041AC89 /* signupViewController.swift in Sources */,
+				99C8C1192B13CD3100CD1700 /* LastViewController.swift in Sources */,
+				99CD1D592B1378160041AC89 /* AppDelegate.swift in Sources */,
+				99808D572B1539DE002DA8BC /* updateViewController.swift in Sources */,
+				997270F82B14C550006E262C /* AllFeatureViewController.swift in Sources */,
+				99808D592B153A1D002DA8BC /* dhurViewController.swift in Sources */,
+				99808D552B150741002DA8BC /* NewsTableViewCell.swift in Sources */,
+				99C8C1132B13C51A00CD1700 /* rahaViewController.swift in Sources */,
+				99CD1D5B2B1378160041AC89 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD1D672B1378170041AC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CD1D702B1378170041AC89 /* Blood_BankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99CD1D712B1378170041AC89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99CD1D7A2B1378170041AC89 /* Blood_BankUITests.swift in Sources */,
+				99CD1D7C2B1378170041AC89 /* Blood_BankUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99CD1D6D2B1378170041AC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99CD1D542B1378160041AC89 /* Blood_Bank */;
+			targetProxy = 99CD1D6C2B1378170041AC89 /* PBXContainerItemProxy */;
+		};
+		99CD1D772B1378170041AC89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99CD1D542B1378160041AC89 /* Blood_Bank */;
+			targetProxy = 99CD1D762B1378170041AC89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		99CD1D5E2B1378160041AC89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CD1D5F2B1378160041AC89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		99CD1D632B1378170041AC89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99CD1D642B1378170041AC89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99CD1D7D2B1378170041AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		99CD1D7E2B1378170041AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99CD1D802B1378170041AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blood_Bank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abir.Blood-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99CD1D812B1378170041AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Blood_Bank/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abir.Blood-Bank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		99CD1D832B1378170041AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abir.Blood-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blood_Bank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blood_Bank";
+			};
+			name = Debug;
+		};
+		99CD1D842B1378170041AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abir.Blood-BankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blood_Bank.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Blood_Bank";
+			};
+			name = Release;
+		};
+		99CD1D862B1378170041AC89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abir.Blood-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blood_Bank;
+			};
+			name = Debug;
+		};
+		99CD1D872B1378170041AC89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Abir.Blood-BankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blood_Bank;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99CD1D502B1378160041AC89 /* Build configuration list for PBXProject "Blood_Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CD1D7D2B1378170041AC89 /* Debug */,
+				99CD1D7E2B1378170041AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CD1D7F2B1378170041AC89 /* Build configuration list for PBXNativeTarget "Blood_Bank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CD1D802B1378170041AC89 /* Debug */,
+				99CD1D812B1378170041AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CD1D822B1378170041AC89 /* Build configuration list for PBXNativeTarget "Blood_BankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CD1D832B1378170041AC89 /* Debug */,
+				99CD1D842B1378170041AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99CD1D852B1378170041AC89 /* Build configuration list for PBXNativeTarget "Blood_BankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99CD1D862B1378170041AC89 /* Debug */,
+				99CD1D872B1378170041AC89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.18.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		99CD1D8B2B1379A70041AC89 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		99CD1D8D2B1379A70041AC89 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		99CD1D8F2B1379A70041AC89 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		99CD1D912B1379A70041AC89 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		99CD1D952B1379A70041AC89 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		99CD1D972B1379A70041AC89 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		99CD1D992B1379A70041AC89 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		99CD1D9B2B1379A70041AC89 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		99CD1D9D2B1379A70041AC89 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		99CD1D9F2B1379A70041AC89 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		99CD1DA12B1379A70041AC89 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		99CD1DA32B1379A70041AC89 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		99CD1DA52B1379A70041AC89 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		99CD1DA72B1379A70041AC89 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		99CD1DA92B1379A70041AC89 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		99CD1DAB2B1379A70041AC89 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		99CD1DAD2B1379A70041AC89 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		99CD1DAF2B1379A70041AC89 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		99CD1DB12B1379A70041AC89 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		99CD1DB32B1379A70041AC89 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		99CD1DB52B1379A70041AC89 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		99CD1DB72B1379A70041AC89 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		99CD1DB92B1379A70041AC89 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		99CD1DBB2B1379A70041AC89 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 99CD1D8A2B1379A70041AC89 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 99CD1D4D2B1378160041AC89 /* Project object */;
+}
